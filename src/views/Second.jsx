@@ -1,12 +1,14 @@
 import React from 'react'
-import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
+import Hero from '../components/common/Hero'
+import Button from '../components/second/Button'
 
 const Second = () => {
   return (
     <div>
-      <Header/>
-      <Footer/>
+      <Button />
+      <Hero />
+      <Footer />
     </div>
   )
 }

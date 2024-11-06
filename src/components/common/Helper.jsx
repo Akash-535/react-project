@@ -3,16 +3,16 @@ export const FOOTER_ITEM = [
     heading:'About website',
     content :[
         {
-           item:'Home' 
+           itemOne:'Home' 
         },
         {
-            item:'How It Works'
+            itemTwo:'How It Works'
         },
         {
-            item:'Testimonials' 
+            itemThree:'Testimonials' 
          },
          {
-             item:'Why Choose Us'
+             itemFour:'Why Choose Us'
          },
     ]
     },
@@ -20,16 +20,16 @@ export const FOOTER_ITEM = [
         heading:'Follow links',
         content :[
             {
-               instagram:'Instagram' 
+                itemOne:'Instagram' 
             },
             {
-                twitter:'Twitter'
+                itemTwo:'Twitter'
             },
             {
-                discord:'Discord' 
+                itemThree:'Discord' 
              },
              {
-                 youtube:'You Tube'
+                itemFour:'You Tube'
              },
         ]
         }
