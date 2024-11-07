@@ -6,17 +6,21 @@ import TypeWriter from '../components/home/TypeWriter'
 import Hooks from '../components/home/Hooks'
 import Card from '../components/home/Card'
 import Footer from '../components/common/Footer'
+import BackToTop from '../components/common/BackToTop'
+import Preloader from '../components/common/Preloader'
 
 const Home = () => {
   return (
     <div>
+      <Preloader />
       <TestEmailJs />
-      <TestAnimateCss />
+      {/* <TestAnimateCss /> */}
       <TypeWriter />
       <TestTiltJs />
       <Hooks />
       <Card />
       <Footer />
+      <BackToTop />
     </div>
   )
 }
