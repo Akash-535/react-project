@@ -8,19 +8,21 @@ import Card from '../components/home/Card'
 import Footer from '../components/common/Footer'
 import BackToTop from '../components/common/BackToTop'
 import Preloader from '../components/common/Preloader'
+import FormValidation from '../components/home/FormValidation'
 
 const Home = () => {
   return (
     <div>
-      <Preloader />
+      {/* <Preloader />
       <TestEmailJs />
       {/* <TestAnimateCss /> */}
-      <TypeWriter />
+      {/* <TypeWriter />
       <TestTiltJs />
       <Hooks />
-      <Card />
-      <Footer />
-      <BackToTop />
+      <Card /> */}
+      {/* <Footer /> */}
+      {/* <BackToTop />  */}
+      <FormValidation />
     </div>
   )
 }

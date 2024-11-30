@@ -14,7 +14,7 @@ function App() {
   <Route path='second' element={<Second/>}/>\
   </Routes></BrowserRouter>
   <BackToTop/>
-  <Preloader/>
+  {/* <Preloader/> */}
     </div>
   );
 }

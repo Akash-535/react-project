@@ -8,7 +8,7 @@ const Second = () => {
     <div>
       <Button />
       <Hero />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

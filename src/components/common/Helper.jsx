@@ -1,36 +1,21 @@
-export const FOOTER_ITEM = [
+import { DashBoardIcon, EventIcon, OnDemandIcon, ProgrammeIcon } from "./Icons";
+
+export const SIDE_BAR_ITEM = [
     {
-    heading:'About website',
-    content :[
-        {
-           itemOne:'Home' 
-        },
-        {
-            itemTwo:'How It Works'
-        },
-        {
-            itemThree:'Testimonials' 
-         },
-         {
-             itemFour:'Why Choose Us'
-         },
-    ]
+        icon: <DashBoardIcon />,
+        iconLink: 'Dashboard'
     },
     {
-        heading:'Follow links',
-        content :[
-            {
-                itemOne:'Instagram' 
-            },
-            {
-                itemTwo:'Twitter'
-            },
-            {
-                itemThree:'Discord' 
-             },
-             {
-                itemFour:'You Tube'
-             },
-        ]
-        }
+        icon: <EventIcon />,
+        iconLink: 'Events'
+    },
+    {
+        icon: <OnDemandIcon />,
+        iconLink: 'On demand'
+    },
+    {
+        icon: <ProgrammeIcon />,
+        iconLink: 'Programmes'
+    },
+
 ]
