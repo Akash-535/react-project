@@ -50,7 +50,7 @@ const FormValidation = () => {
                 <div className='pt-2.5'>
                     <div className='flex justify-between items-center w-full h-11 border border-gray-300 rounded px-2'>
                         <input className='!outline-none !p-0 !m-0 !border-none !bg-transparent' type={showPassword ? "text" : "password"} placeholder='Enter Your Password' onChange={(e) => setValue({ ...value, password: e.target.value })} value={value.password} />
-                        <p onClick={() => setShowPassword(!showPassword)}>
+                        <p onClick={() => setShowPassword(!showPassword)} className='cursor-pointer'>
                             {showPassword ? "hide" : "show"}
                         </p>
                     </div>
@@ -60,7 +60,7 @@ const FormValidation = () => {
                 <div className='pt-2.5'>
                     <div className='flex justify-between items-center w-full h-11 border border-gray-300 rounded px-2'>
                         <input className='!outline-none !p-0 !m-0 !border-none !bg-transparent' type={confirmShowPassword ? "text" : "password"} placeholder='Confirm Your Password' onChange={(e) => setValue({ ...value, confirmPassword: e.target.value })} value={value.confirmPassword} />
-                        <p onClick={() => setConfirmShowPassword(!confirmShowPassword)}>
+                        <p onClick={() => setConfirmShowPassword(!confirmShowPassword)} className='cursor-pointer'>
                             {confirmShowPassword ? "hide" : "show"}
                         </p>
                     </div>
