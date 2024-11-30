@@ -14,7 +14,6 @@ const Home = () => {
   return (
     <div>
       {/* <Preloader />
-      <TestEmailJs />
       {/* <TestAnimateCss /> */}
       {/* <TypeWriter />
       <TestTiltJs />
@@ -23,6 +22,7 @@ const Home = () => {
       {/* <Footer /> */}
       {/* <BackToTop />  */}
       <FormValidation />
+      <TestEmailJs />
     </div>
   )
 }

@@ -37,7 +37,7 @@ const FormValidation = () => {
     }
     return (
         <div className='min-h-screen flex items-center justify-center'>
-            <form className='w-full max-w-[700px]'>
+            <form onSubmit={submitHandler} className='w-full max-w-[700px]'>
                 <div className='w-full'>
                     <input className='w-full' type="text" placeholder='Enter Your Name' onChange={(e) => setValue({ ...value, name: e.target.value })} value={value.name} />
                     <p>{error && !value.name ? "Name is requried" : ""}</p>
@@ -85,7 +85,7 @@ const FormValidation = () => {
                     </div>
                     <p>{error && !value.checkBox ? 'Checkbox is required' : ''}</p>
                 </div>
-                <button onClick={submitHandler} className='px-5 py-3 border border-red-500 mt-5 max-w-60'>Submit</button>
+                <button type='submit' className='px-5 py-3 border border-red-500 mt-5 max-w-60'>Submit</button>
             </form>
         </div>
     )
