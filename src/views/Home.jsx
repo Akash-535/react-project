@@ -10,21 +10,23 @@ import BackToTop from '../components/common/BackToTop'
 import Preloader from '../components/common/Preloader'
 import FormValidation from '../components/home/FormValidation'
 import CustomAccordion from '../components/home/CustomAccordion'
+import Gsap from '../components/second/Gsap'
 
 const Home = () => {
   return (
     <div>
-      {/* <Preloader />
+      <Preloader />
       {/* <TestAnimateCss /> */}
-      {/* <TypeWriter />
+      <TypeWriter />
       <TestTiltJs />
+      <Card />
+      <Footer />
+      <BackToTop />
+      <TestEmailJs />
       <Hooks />
-      <Card /> */}
-      {/* <Footer /> */}
-      {/* <BackToTop />  */}
-      {/* <TestEmailJs /> */}
       <FormValidation />
       <CustomAccordion />
+
     </div>
   )
 }

@@ -22,7 +22,7 @@ export const TestEmailJs = () => {
 
   return (
     <>
-      <h2 className='text-5xl text-black text-center pb-5 pr-10'>Email js</h2>
+      <h2 className='text-5xl text-black text-center pb-5 pr-10 pt-10'>Email js</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="name" />

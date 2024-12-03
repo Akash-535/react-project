@@ -13,7 +13,7 @@ const Preloader = () => {
     return (
         <div>
             {preLoader ? (
-                <div className="bg-black fixed inset-0 flex justify-center items-center">
+                <div className="bg-black fixed inset-0 flex justify-center items-center z-50">
                     <span className="text-white">Loading...</span>
                 </div>
             ) : null}
