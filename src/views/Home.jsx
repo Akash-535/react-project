@@ -9,6 +9,7 @@ import Footer from '../components/common/Footer'
 import BackToTop from '../components/common/BackToTop'
 import Preloader from '../components/common/Preloader'
 import FormValidation from '../components/home/FormValidation'
+import CustomAccordion from '../components/home/CustomAccordion'
 
 const Home = () => {
   return (
@@ -21,8 +22,9 @@ const Home = () => {
       <Card /> */}
       {/* <Footer /> */}
       {/* <BackToTop />  */}
+      {/* <TestEmailJs /> */}
       <FormValidation />
-      <TestEmailJs />
+      <CustomAccordion />
     </div>
   )
 }

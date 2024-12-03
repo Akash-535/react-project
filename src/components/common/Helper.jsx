@@ -19,3 +19,18 @@ export const SIDE_BAR_ITEM = [
     },
 
 ]
+
+export const ACCORDION_DATA = [
+    {
+        heading: "Accordion 1",
+        peragraph: '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eligendi autem recusandae in, corrupti eum aliquid molestiae facere accusantium deleniti?'
+    },
+    {
+        heading: "Accordion 2",
+        peragraph: '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eligendi autem recusandae in, corrupti eum aliquid molestiae facere accusantium deleniti?'
+    },
+    {
+        heading: "Accordion 3",
+        peragraph: '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eligendi autem recusandae in, corrupti eum aliquid molestiae facere accusantium deleniti?'
+    },
+]
