@@ -30,7 +30,7 @@ const CustomAccordion = () => {
                             </span>
                         </button>
                         <div
-                            className={`md:overflow-hidden overflow-auto transition-all duration-700 ease-linear ${open === i ? 'max-h-[200px] opacity-100' : 'max-h-0 opacity-0np'
+                            className={`md:overflow-hidden overflow-auto transition-all duration-700 ease-in-out ${open === i ? 'max-h-[200px]' : 'max-h-0'
                                 }`}
                         >
                             <p className="text-base text-gray-600">
