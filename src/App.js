@@ -1,9 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './views/Home';
-import Second from './views/Second';
 import BackToTop from './components/common/BackToTop';
-import Preloader from './components/common/Preloader';
+import Dashboard from './views/Dashboard';
 
 function App() {
   return (
@@ -11,10 +10,9 @@ function App() {
  <BrowserRouter>
  <Routes>
   <Route path='/' element={<Home/>}/>
-  <Route path='second' element={<Second/>}/>\
+  <Route path='/dashboard' element={<Dashboard/>}/>
   </Routes></BrowserRouter>
   <BackToTop/>
-  {/* <Preloader/> */}
     </div>
   );
 }

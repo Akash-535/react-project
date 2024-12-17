@@ -19,6 +19,7 @@
     "react-tilt": "^1.0.2",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.14.5",
+    "swiper": "^11.1.15",
     "typewriter-effect": "^2.21.0",
     "vanilla-tilt": "^1.8.1",
     "web-vitals": "^2.1.4"

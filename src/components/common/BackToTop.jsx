@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const BackToTop = () => {
     const [scrollTop, setScrollToTop] = useState(false)
-    const scrollHnadler = () => {
+    const scrollHandler = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     }
     const setHendler = () => {
@@ -15,7 +15,7 @@ const BackToTop = () => {
     return (
         <div>
             {scrollTop && (
-                <button onClick={scrollHnadler} className='text-xl text-red-900 fixed right-[10px] bottom-[10px]'>top</button>)
+                <button onClick={scrollHandler} className='text-xl text-red-900 fixed right-[10px] bottom-[10px]'>top</button>)
             }
         </div>
     )
